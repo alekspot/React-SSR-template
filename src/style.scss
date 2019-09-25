@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(232, 252, 209);
+}
+@mixin font {
+    color:red;
+}
+.item {
+    @include font;
+    font-size: 30px;
+}
+
